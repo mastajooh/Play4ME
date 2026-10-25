@@ -1,0 +1,18 @@
+[
+  {
+    "Author": "mastajooh",
+    "Name": "Play4ME",
+    "InternalName": "Play4ME",
+    "Punchline": "Dodges BossmodReborn AOEs with vnavmesh and runs Wrath Combo's Auto-Rotation.",
+    "Description": "Play4ME reads BossmodReborn's AOE telegraphs, moves your character to the nearest safe spot with vnavmesh, walks you back into range of your target, and turns on Wrath Combo's Auto-Rotation while enabled. Requires BossmodReborn and vnavmesh; Wrath Combo is optional. Toggle with /play4me.",
+    "Tags": [ "BossMod", "vnavmesh", "Wrath", "Combat", "Dodge", "Automation" ],
+    "AssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/mastajooh/Play4ME",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/mastajooh/Play4ME/releases/download/0.1.0.0/Play4ME.zip",
+    "DownloadLinkUpdate": "https://github.com/mastajooh/Play4ME/releases/download/0.1.0.0/Play4ME.zip",
+    "DownloadLinkTesting": "https://github.com/mastajooh/Play4ME/releases/download/0.1.0.0/Play4ME.zip",
+    "IconUrl": "https://raw.githubusercontent.com/mastajooh/Play4ME/main/images/icon.png"
+  }
+]
