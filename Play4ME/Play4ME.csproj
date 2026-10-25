@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dalamud.NET.Sdk 15.0.0 (Dalamud API 15, net10.0-windows, x64). -->
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.1.0.0</Version>
+    <RootNamespace>Play4ME</RootNamespace>
+    <AssemblyName>Play4ME</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <Author>mastajooh</Author>
+    <Name>Play4ME</Name>
+    <Punchline>Dodges BossmodReborn AOEs with vnavmesh and runs Wrath Combo's Auto-Rotation.</Punchline>
+    <Description>Play4ME reads BossmodReborn's AOE telegraphs, moves your character to the nearest safe spot with vnavmesh, walks you back into range of your target, and turns on Wrath Combo's Auto-Rotation while enabled. Requires BossmodReborn and vnavmesh; Wrath Combo is optional. Toggle with /play4me.</Description>
+    <RepoUrl>https://github.com/mastajooh/Play4ME</RepoUrl>
+    <Tags>bossmod;vnavmesh;wrath;combat;dodge;automation</Tags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Play4ME.Core\Play4ME.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\images\icon.png">
+      <Link>images\icon.png</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>false</Visible>
+    </Content>
+  </ItemGroup>
+</Project>

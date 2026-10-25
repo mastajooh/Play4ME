@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Play4ME/Play4ME.csproj">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="Play4ME.Core/Play4ME.Core.csproj" />
+  <Project Path="Play4ME.Tests/Play4ME.Tests.csproj" />
+</Solution>
